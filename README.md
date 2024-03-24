@@ -20,23 +20,17 @@ The results of our evaluation demonstrate that Speaker2Vec successfully captures
 - `preprocessEmbeddings.py`: Includes functions for text embedding preprocessing.
 - `annotated_trees_101.csv`: Dataset comprising 101 annotated "Change My View" (CMV) threads.
 
-## Research Findings
-
-- Complex and informative vector representations significantly improve model performance over simplistic one-hot user vector representations.
-- The most effective approach combines feature extraction and text embedding, specifically utilizing the text encoder of CLIP for text embedding.
-
 ## Prerequisites
 
 Before running Speaker2Vec, ensure you have the following installed:
 - Python 3.8 or higher
 - Required Python libraries: `numpy`, `pandas`, `torch`, `transformers`
-- (Optional) Virtual environment tool such as `virtualenv` or `conda`
 
 ## Installation
 
 1. Clone the Speaker2Vec repository:
    ```
-   git clone https://yourrepositoryurl/Speaker2Vec.git
+   git clone http://github.com/DanielSamira96/Speaker2Vec.git
    ```
 2. Navigate to the Speaker2Vec directory:
    ```
