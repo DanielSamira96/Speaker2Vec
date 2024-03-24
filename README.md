@@ -37,9 +37,6 @@ For further information, please contact the authors at their respective email ad
 - Uri Zlotkin: urizlo@post.bgu.ac.il
 
 
-Certainly! Here's how you could structure your README in markdown format for GitHub or any other platform that supports Markdown. Just copy and paste this into your `README.md` file.
-
-```markdown
 # Speaker2Vec
 
 ## Overview
@@ -74,17 +71,12 @@ Before running Speaker2Vec, ensure you have the following installed:
 ## Installation
 
 1. Clone the Speaker2Vec repository:
-   ```
-   git clone https://yourrepositoryurl/Speaker2Vec.git
-   ```
+git clone https://yourrepositoryurl/Speaker2Vec.git
 2. Navigate to the Speaker2Vec directory:
-   ```
-   cd Speaker2Vec
-   ```
+cd Speaker2Vec
 3. Install the required Python libraries:
-   ```
-   pip install -r requirements.txt
-   ```
+pip install -r requirements.txt
+
 
 ## How to Use
 
@@ -92,17 +84,16 @@ To use Speaker2Vec, follow these steps:
 
 1. Prepare your dataset. Ensure it is in the correct format as the provided `annotated_trees_101.csv`.
 2. Run `main.py` to start the vectorization process:
-   ```
-   python main.py
-   ```
-   This script will preprocess your data, perform feature extraction and text embedding, and output the vectorized speaker features.
+python main.py
+
+This script will preprocess your data, perform feature extraction and text embedding, and output the vectorized speaker features.
 
 ## Example Usage
 
 Assuming you have your dataset named `my_dataset.csv`, you can run:
-```
+
 python main.py --input my_dataset.csv --output my_vectorized_features.csv
-```
+
 This command preprocesses `my_dataset.csv`, vectorizes the speaker features, and saves the result to `my_vectorized_features.csv`.
 
 ## Contributing
@@ -112,8 +103,4 @@ We welcome contributions! If you have suggestions for improvements or bug fixes,
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-```
-
-Adjust the repository URL and any specific commands or file names according to your project's actual setup. This template should give you a solid starting point for your project's README file.
-
 
